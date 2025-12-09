@@ -1,7 +1,7 @@
 def call(){
   node {
-    loadTools()
     checkoutSCM()
+    loadTools()
     buildJava()
     unitTestJava()
   }
