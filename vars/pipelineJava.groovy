@@ -1,6 +1,6 @@
 def call(){
   node {
-    loadTools("tools.txt")
+    loadTools()
     checkoutSCM()
     buildJava()
     unitTestJava()
