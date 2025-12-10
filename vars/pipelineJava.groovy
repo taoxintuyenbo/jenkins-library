@@ -4,5 +4,7 @@ def call(){
     loadTools()
     buildJava()
     unitTestJava()
+    qualityCheck()
+    qualityGate()
   }
 }
