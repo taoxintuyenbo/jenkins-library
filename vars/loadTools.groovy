@@ -2,7 +2,7 @@ def call(String toolFile = 'tools.properties') {
     if (!fileExists(toolFile)) {
         error "Tools properties file not found: ${toolFile}"
     }
-    // Load .properties file
+    
     def toolsConfig = readProperties(file: toolFile)
 
     // Extract special properties
