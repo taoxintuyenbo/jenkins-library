@@ -6,5 +6,6 @@ def call(){
     unitTestJava()
     qualityCheck()
     qualityGate()
+    pushArtifactJava()
   }
 }
