@@ -3,6 +3,7 @@ def call(String toolFile = 'tools.properties') {
         error "Tools properties file not found: ${toolFile}"
     }
     
+    // require plugin Pipelin ultil
     def toolsConfig = readProperties(file: toolFile)
 
     // Extract special properties
