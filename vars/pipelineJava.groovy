@@ -2,6 +2,7 @@ def call(){
   node {
     checkoutSCM()
     loadTools()
+    varsNexus()
     buildJava()
     unitTestJava()
     qualityCheck()
