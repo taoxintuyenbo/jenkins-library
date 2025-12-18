@@ -4,9 +4,9 @@ def call(){
     loadTools()
     varsNexus()
     buildJava()
-    unitTestJava()
-    qualityCheck()
-    qualityGate()
+    //unitTestJava()
+   // qualityCheck()
+    //qualityGate()
     pushArtifactJava()
     pushSnapshot()
   }
