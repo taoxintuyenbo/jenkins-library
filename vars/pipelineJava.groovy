@@ -8,5 +8,6 @@ def call(){
     qualityCheck()
     qualityGate()
     pushArtifactJava()
+    pushSnapshot()
   }
 }
