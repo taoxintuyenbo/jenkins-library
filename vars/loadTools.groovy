@@ -2,6 +2,8 @@ def call(String toolFile = 'tools.properties') {
     if (!fileExists(toolFile)) {
         error "Tools properties file not found: ${toolFile}"
     }
+
+    env.VERSION = "${new Date().format('yyMMdd')}"
     
     // require plugin Pipelin ultil
     def toolsConfig = readProperties(file: toolFile)
