@@ -8,4 +8,5 @@ def call() {
     env.NEXUS_GROUP       = nexusProps.nexusGroup
     env.NEXUS_CRED        = nexusProps.nexusCred
     env.NEXUS_ARTIFACT_ID = nexusProps.nexusPrjID
+    env.VERSION = nexusProps.nexusVersion
 }
