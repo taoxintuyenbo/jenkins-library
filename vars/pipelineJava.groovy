@@ -10,5 +10,6 @@ def call(){
     //qualityGate()
     pushArtifactJava()
     pushSnapshot()
+    deployJava()
   }
 }
