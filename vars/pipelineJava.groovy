@@ -11,5 +11,6 @@ def call(){
     pushArtifactJava()
     pushSnapshot()
     deployJava()
+    healthCheck()
   }
 }
