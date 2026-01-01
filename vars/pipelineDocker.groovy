@@ -11,5 +11,6 @@ def call(){
     pushSnapshot()
     buildDocker()
     pushDockerNexus()
+    deployDocker()
   }
 }
