@@ -12,5 +12,6 @@ def call(){
     buildDocker()
     pushDockerNexus()
     deployDocker()
+    healthCheck()
   }
 }
