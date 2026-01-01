@@ -3,7 +3,7 @@ def call(){
     checkoutSCM()
     loadTools()
     varsNexus()
-    varsServer()
+    varsServerDocker()
     buildJava()
     // unitTestJava()
     // qualityCheck()
