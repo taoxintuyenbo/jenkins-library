@@ -15,6 +15,9 @@ def call(Map cfg = [:]) {
                 case 'init':
                     sh 'terraform init'
                     break
+                 case 'validate':
+                    sh 'terraform validate'
+                    break
                 case 'plan':
                     sh 'terraform plan'
                     break
