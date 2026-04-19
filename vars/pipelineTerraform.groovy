@@ -1,7 +1,7 @@
 def call() {
   properties([
     parameters([
-      choice(name: 'TF_ACTION', choices: ['init', 'plan', 'apply', 'destroy'], description: 'Terraform action to run'),
+      choice(name: 'TF_ACTION', choices: ['init', 'validate', 'plan', 'apply', 'destroy'], description: 'Terraform action to run'),
     ])
   ])
 
